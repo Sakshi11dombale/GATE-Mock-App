@@ -1,0 +1,192 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gate.mocktest"
+4    android:versionCode="3"
+5    android:versionName="1.2" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="34" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:3:5-66
+11-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:3:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.gate.mocktest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.gate.mocktest.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+19-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:4:5-22:19
+20        android:allowBackup="true"
+20-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:5:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\abc\.gradle\caches\8.9\transforms\1ba48e7a46549d6e285c12b18ad10990\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:debuggable="true"
+23        android:extractNativeLibs="false"
+24        android:label="@string/app_name"
+24-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:6:9-41
+25        android:supportsRtl="true"
+25-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:8:9-35
+26        android:testOnly="true"
+27        android:theme="@style/Theme.GATEMockTest" >
+27-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:7:9-50
+28        <activity
+28-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:10:9-16:20
+29            android:name="com.gate.mocktest.activities.SplashActivity"
+29-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:10:19-60
+30            android:exported="true"
+30-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:10:61-84
+31            android:screenOrientation="portrait"
+31-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:11:13-49
+32            android:theme="@style/Theme.GATEMockTest.Splash" >
+32-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:11:50-98
+33            <intent-filter>
+33-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:12:13-15:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:13:17-68
+34-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:13:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:14:17-76
+36-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:14:27-74
+37            </intent-filter>
+38        </activity>
+39        <activity
+39-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:17:9-123
+40            android:name="com.gate.mocktest.activities.LoginActivity"
+40-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:17:19-59
+41            android:exported="false"
+41-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:17:60-84
+42            android:screenOrientation="portrait" />
+42-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:17:85-121
+43        <activity
+43-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:18:9-126
+44            android:name="com.gate.mocktest.activities.RegisterActivity"
+44-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:18:19-62
+45            android:exported="false"
+45-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:18:63-87
+46            android:screenOrientation="portrait" />
+46-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:18:88-124
+47        <activity
+47-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:19:9-122
+48            android:name="com.gate.mocktest.activities.MainActivity"
+48-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:19:19-58
+49            android:exported="false"
+49-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:19:59-83
+50            android:screenOrientation="portrait" />
+50-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:19:84-120
+51        <activity
+51-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:20:9-122
+52            android:name="com.gate.mocktest.activities.ExamActivity"
+52-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:20:19-58
+53            android:exported="false"
+53-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:20:59-83
+54            android:screenOrientation="portrait" />
+54-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:20:84-120
+55        <activity
+55-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:21:9-124
+56            android:name="com.gate.mocktest.activities.ResultActivity"
+56-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:21:19-60
+57            android:exported="false"
+57-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:21:61-85
+58            android:screenOrientation="portrait" />
+58-->C:\Users\abc\Downloads\GATE_Prep_Studio_UI_Locked_Design\GATEApp\app\src\main\AndroidManifest.xml:21:86-122
+59
+60        <service
+60-->[androidx.room:room-runtime:2.6.1] C:\Users\abc\.gradle\caches\8.9\transforms\ef176a20bd28b0bb6541416706a1e4c9\transformed\room-runtime-2.6.1\AndroidManifest.xml:24:9-28:63
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.6.1] C:\Users\abc\.gradle\caches\8.9\transforms\ef176a20bd28b0bb6541416706a1e4c9\transformed\room-runtime-2.6.1\AndroidManifest.xml:25:13-74
+62            android:directBootAware="true"
+62-->[androidx.room:room-runtime:2.6.1] C:\Users\abc\.gradle\caches\8.9\transforms\ef176a20bd28b0bb6541416706a1e4c9\transformed\room-runtime-2.6.1\AndroidManifest.xml:26:13-43
+63            android:exported="false" />
+63-->[androidx.room:room-runtime:2.6.1] C:\Users\abc\.gradle\caches\8.9\transforms\ef176a20bd28b0bb6541416706a1e4c9\transformed\room-runtime-2.6.1\AndroidManifest.xml:27:13-37
+64
+65        <provider
+65-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+66            android:name="androidx.startup.InitializationProvider"
+66-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+67            android:authorities="com.gate.mocktest.androidx-startup"
+67-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+68            android:exported="false" >
+68-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+69            <meta-data
+69-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+70                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+70-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+71                android:value="androidx.startup" />
+71-->[androidx.emoji2:emoji2:1.2.0] C:\Users\abc\.gradle\caches\8.9\transforms\c1da7ab6cb7cc87b6a302e26ee3c9c62\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+72            <meta-data
+72-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\abc\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:29:13-31:52
+73                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+73-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\abc\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:30:17-78
+74                android:value="androidx.startup" />
+74-->[androidx.lifecycle:lifecycle-process:2.7.0] C:\Users\abc\.gradle\caches\8.9\transforms\288408d912a561185990be7f993e1fcc\transformed\jetified-lifecycle-process-2.7.0\AndroidManifest.xml:31:17-49
+75            <meta-data
+75-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+76                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+76-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+77                android:value="androidx.startup" />
+77-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+78        </provider>
+79
+80        <uses-library
+80-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+81            android:name="androidx.window.extensions"
+81-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+82            android:required="false" />
+82-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+83        <uses-library
+83-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+84            android:name="androidx.window.sidecar"
+84-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+85            android:required="false" />
+85-->[androidx.window:window:1.0.0] C:\Users\abc\.gradle\caches\8.9\transforms\9c43502b7ef51a4407e42909260e52a0\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+86
+87        <receiver
+87-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+88            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+88-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+89            android:directBootAware="false"
+89-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+90            android:enabled="true"
+90-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+91            android:exported="true"
+91-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+92            android:permission="android.permission.DUMP" >
+92-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+93            <intent-filter>
+93-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+94                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+94-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+95            </intent-filter>
+96            <intent-filter>
+96-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+97                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+97-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+98            </intent-filter>
+99            <intent-filter>
+99-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+100                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+100-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+101            </intent-filter>
+102            <intent-filter>
+102-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+103                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+103-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\abc\.gradle\caches\8.9\transforms\9b26d396e10ef68a4f332c6299c0ffec\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+104            </intent-filter>
+105        </receiver>
+106    </application>
+107
+108</manifest>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:gravity="center_vertical"
+        android:layout_marginBottom="4dp">
+        <TextView android:id="@+id/tv_weak_subject"
+            android:layout_width="0dp" android:layout_height="wrap_content"
+            android:layout_weight="1" android:text="Computer Networks"
+            android:textColor="#1A1A2E" android:textSize="12sp" android:textStyle="bold"/>
+        <TextView android:id="@+id/tv_weak_accuracy"
+            android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:text="41%" android:textColor="#A32D2D"
+            android:textSize="12sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/pb_weak"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent" android:layout_height="5dp"
+        android:progress="41" android:max="100"
+        android:progressTint="#E24B4A" android:progressBackgroundTint="#F1F0F8"/>
+
+</LinearLayout>

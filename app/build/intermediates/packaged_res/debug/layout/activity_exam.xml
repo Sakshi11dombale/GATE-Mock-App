@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:orientation="vertical" android:background="#F7F7FB">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#111827" android:padding="16dp">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical">
+            <ImageButton android:id="@+id/btn_back" android:layout_width="38dp" android:layout_height="38dp" android:background="?attr/selectableItemBackgroundBorderless" android:src="@drawable/ic_arrow_left" android:tint="#E5E7EB" android:contentDescription="Back"/>
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="8dp">
+                <TextView android:id="@+id/tv_question_number" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Q 1 / 30" android:textColor="#FFFFFF" android:textSize="16sp" android:textStyle="bold"/>
+                <TextView android:id="@+id/tv_subject" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Algorithms · 2 marks" android:textColor="#9CA3AF" android:textSize="10sp" android:layout_marginTop="2dp"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:orientation="vertical" android:gravity="end">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="TIME LEFT" android:textColor="#9CA3AF" android:textSize="8sp" android:letterSpacing="0.1"/>
+                <TextView android:id="@+id/tv_timer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="01:00:00" android:textColor="#FBBF24" android:textSize="20sp" android:textStyle="bold" android:fontFamily="monospace"/>
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:layout_marginTop="12dp">
+            <TextView android:id="@+id/tv_difficulty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Medium" android:textColor="#92400E" android:textSize="9sp" android:textStyle="bold" android:background="@drawable/bg_badge_amber" android:paddingStart="8dp" android:paddingEnd="8dp" android:paddingTop="4dp" android:paddingBottom="4dp"/>
+            <TextView android:id="@+id/tv_neg_marking" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="−0.66 penalty" android:textColor="#FCA5A5" android:textSize="9sp" android:layout_marginStart="8dp"/>
+            <View android:layout_width="0dp" android:layout_height="1dp" android:layout_weight="1"/>
+            <TextView android:id="@+id/btn_toggle_palette" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Question palette" android:textColor="#C7D2FE" android:textSize="10sp" android:background="?attr/selectableItemBackgroundBorderless" android:padding="6dp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/palette_layout" android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#FFFFFF" android:padding="12dp" android:visibility="gone">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:gravity="center_vertical" android:paddingBottom="8dp">
+            <View android:layout_width="10dp" android:layout_height="10dp" android:background="#4338CA" android:layout_marginEnd="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Answered" android:textSize="9sp" android:textColor="#6B7280" android:layout_marginEnd="12dp"/>
+            <View android:layout_width="10dp" android:layout_height="10dp" android:background="#F59E0B" android:layout_marginEnd="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Marked" android:textSize="9sp" android:textColor="#6B7280" android:layout_marginEnd="12dp"/>
+            <View android:layout_width="10dp" android:layout_height="10dp" android:background="#E5E7EB" android:layout_marginEnd="4dp"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Not visited" android:textSize="9sp" android:textColor="#6B7280"/>
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_palette" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false"/>
+    </LinearLayout>
+
+    <ProgressBar android:id="@+id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center" android:visibility="gone"/>
+
+    <LinearLayout android:id="@+id/content_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:orientation="vertical">
+        <ScrollView android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1" android:padding="14dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical">
+                <androidx.cardview.widget.CardView android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="20dp" app:cardElevation="0dp" android:layout_marginBottom="12dp">
+                    <TextView android:id="@+id/tv_question_text" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="20dp" android:text="Question text loads here..." android:textColor="#111827" android:textSize="16sp" android:lineSpacingMultiplier="1.45"/>
+                </androidx.cardview.widget.CardView>
+                <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_options" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false"/>
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="#FFFFFF" android:elevation="8dp" android:padding="10dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="7dp">
+                <Button android:id="@+id/btn_mark_review" android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1" android:layout_marginEnd="6dp" android:text="Mark &amp; Next" android:textAllCaps="false" android:textSize="11sp" android:backgroundTint="#FEF3C7" android:textColor="#92400E"/>
+                <Button android:id="@+id/btn_clear" android:layout_width="0dp" android:layout_height="42dp" android:layout_weight="1" android:text="Clear answer" android:textAllCaps="false" android:textSize="11sp" android:backgroundTint="#F3F4F6" android:textColor="#4B5563"/>
+            </LinearLayout>
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal">
+                <Button android:id="@+id/btn_prev" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_marginEnd="5dp" android:text="Previous" android:textAllCaps="false" android:textSize="11sp" android:backgroundTint="#E5E7EB" android:textColor="#111827"/>
+                <Button android:id="@+id/btn_next" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:layout_marginEnd="5dp" android:text="Next" android:textAllCaps="false" android:textSize="11sp" android:backgroundTint="#E0E7FF" android:textColor="#3730A3"/>
+                <Button android:id="@+id/btn_submit" android:layout_width="0dp" android:layout_height="44dp" android:layout_weight="1" android:text="Submit" android:textAllCaps="false" android:textSize="11sp" android:backgroundTint="#4338CA" android:textColor="#FFFFFF"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

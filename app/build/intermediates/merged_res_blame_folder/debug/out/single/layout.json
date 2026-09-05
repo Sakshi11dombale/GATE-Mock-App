@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_splash.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/fragment_topics.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_topics.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_result_card.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_result_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/fragment_dashboard.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_topic_card.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_topic_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_test_card.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_test_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/fragment_tests.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_tests.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_result.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_exam.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/fragment_results.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_results.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_palette_dot.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_palette_dot.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_login.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_weak_topic.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_weak_topic.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/item_option.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_option.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_register.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/activity_main.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-mergeDebugResources-46:/layout/fragment_home.xml",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_home.xml"
+    }
+]

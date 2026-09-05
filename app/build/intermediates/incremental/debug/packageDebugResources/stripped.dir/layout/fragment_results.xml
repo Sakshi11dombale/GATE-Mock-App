@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F1F0F8">
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:background="#1A1A2E" android:padding="12dp">
+        <TextView android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:text="My Results" android:textColor="#FFFFFF"
+            android:textSize="16sp" android:textStyle="bold"/>
+    </LinearLayout>
+
+    <HorizontalScrollView android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:scrollbars="none" android:background="#FFFFFF" android:padding="10dp">
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+            android:orientation="horizontal" android:id="@+id/filter_row">
+            <TextView android:id="@+id/filter_all" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="All"
+                android:background="@drawable/bg_badge_purple" android:textColor="#534AB7"
+                android:textSize="11sp" android:textStyle="bold"
+                android:paddingStart="14dp" android:paddingEnd="14dp"
+                android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_marginEnd="6dp"/>
+            <TextView android:id="@+id/filter_mock" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Mock"
+                android:background="@drawable/bg_badge_blue" android:textColor="#185FA5"
+                android:textSize="11sp" android:paddingStart="14dp" android:paddingEnd="14dp"
+                android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_marginEnd="6dp"/>
+            <TextView android:id="@+id/filter_topic" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="Topic"
+                android:background="@drawable/bg_badge_green" android:textColor="#3B6D11"
+                android:textSize="11sp" android:paddingStart="14dp" android:paddingEnd="14dp"
+                android:paddingTop="5dp" android:paddingBottom="5dp" android:layout_marginEnd="6dp"/>
+            <TextView android:id="@+id/filter_pyq" android:layout_width="wrap_content"
+                android:layout_height="wrap_content" android:text="PYQ"
+                android:background="@drawable/bg_badge_amber" android:textColor="#854F0B"
+                android:textSize="11sp" android:paddingStart="14dp" android:paddingEnd="14dp"
+                android:paddingTop="5dp" android:paddingBottom="5dp"/>
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <TextView android:id="@+id/tv_no_results"
+        android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:text="No results yet. Take your first test!"
+        android:textColor="#94A3B8" android:textSize="13sp" android:gravity="center"
+        android:padding="32dp" android:visibility="visible"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_results"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="12dp"
+        android:clipToPadding="false"/>
+
+</LinearLayout>

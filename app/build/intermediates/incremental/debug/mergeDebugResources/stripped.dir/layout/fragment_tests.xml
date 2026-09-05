@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F8F9FC"
+    android:clipToPadding="false">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="100dp">
+
+        <!-- ================= HERO SECTION ================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:background="@drawable/bg_tests_hero"
+            android:orientation="vertical"
+            android:paddingLeft="30dp"
+            android:paddingTop="32dp"
+            android:paddingRight="30dp"
+            android:paddingBottom="28dp">
+
+            <!-- SMALL TITLE -->
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TEST CENTER"
+                android:textColor="#D8D6FF"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.14" />
+
+            <!-- MAIN TITLE -->
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:text="Practice. Analyze.&#10;Improve."
+                android:textColor="#FFFFFF"
+                android:textSize="31sp"
+                android:textStyle="bold"
+                android:lineSpacingExtra="2dp" />
+
+            <!-- BRANCH LABEL -->
+
+            <TextView
+                android:id="@+id/tvBranchLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="18dp"
+                android:background="@drawable/bg_branch_chip"
+                android:paddingLeft="20dp"
+                android:paddingTop="9dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="9dp"
+                android:text="Branch: DA"
+                android:textColor="#FFFFFF"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <!-- ================= PRACTICE MOCK HEADER ================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="26dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PRACTICE MOCKS"
+                android:textColor="#647184"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.14" />
+
+            <TextView
+                android:id="@+id/tvMockCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="3 tests"
+                android:textColor="#718096"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <!-- ================= MOCK TEST LIST ================= -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvMockTests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:nestedScrollingEnabled="false" />
+
+
+        <!-- ================= PYQ HEADER ================= -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="PREVIOUS YEAR QUESTIONS"
+                android:textColor="#647184"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                android:letterSpacing="0.12" />
+
+            <TextView
+                android:id="@+id/tvPyqCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="2 papers"
+                android:textColor="#718096"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+
+
+        <!-- ================= PYQ LIST ================= -->
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvPyqTests"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:nestedScrollingEnabled="false" />
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.gate.mocktest.fragments.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/fragment_home"
+        xmlns:tools="http://schemas.android.com/tools">
+        <action android:id="@+id/action_home_to_topics"
+            app:destination="@id/topicsFragment" />
+        <action android:id="@+id/action_home_to_tests"
+            app:destination="@id/testsFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/topicsFragment"
+        android:name="com.gate.mocktest.fragments.TopicsFragment"
+        android:label="Topics"
+        tools:layout="@layout/fragment_topics"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+    <fragment
+        android:id="@+id/testsFragment"
+        android:name="com.gate.mocktest.fragments.TestsFragment"
+        android:label="Tests"
+        tools:layout="@layout/fragment_tests"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+    <fragment
+        android:id="@+id/resultsFragment"
+        android:name="com.gate.mocktest.fragments.ResultsFragment"
+        android:label="Results"
+        tools:layout="@layout/fragment_results"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+    <fragment
+        android:id="@+id/dashboardFragment"
+        android:name="com.gate.mocktest.fragments.DashboardFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_dashboard"
+        xmlns:tools="http://schemas.android.com/tools"/>
+
+</navigation>

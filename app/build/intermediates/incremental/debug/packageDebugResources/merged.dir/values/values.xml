@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#F5BE3F</color>
+    <color name="app_bg">#F6F7FC</color>
+    <color name="bg_dark">#11192B</color>
+    <color name="coral_color">#A85B37</color>
+    <color name="error_bg">#F7E8E8</color>
+    <color name="error_red">#A24D4A</color>
+    <color name="info_bg">#E8EEF5</color>
+    <color name="info_blue">#486B8D</color>
+    <color name="palette_answered">#67A482</color>
+    <color name="palette_current">#4B3DB4</color>
+    <color name="palette_marked">#F2A21B</color>
+    <color name="palette_not_visited">#E6E9F0</color>
+    <color name="primary">#4B3DB4</color>
+    <color name="primary_dark">#24254A</color>
+    <color name="primary_light">#EEECFF</color>
+    <color name="purple_color">#4F46A5</color>
+    <color name="success_bg">#EAF2E7</color>
+    <color name="success_green">#4E7B43</color>
+    <color name="teal_color">#2E796B</color>
+    <color name="text_hint">#9AA6B5</color>
+    <color name="text_primary">#263247</color>
+    <color name="text_secondary">#6F7D91</color>
+    <color name="warning_amber">#8A6428</color>
+    <color name="warning_bg">#F7EFDE</color>
+    <color name="white">#FFFFFF</color>
+    <string name="app_name">GATE Prep Studio</string>
+    <style name="Theme.GATEMockTest" parent="Theme.MaterialComponents.Light.NoActionBar">
+  <item name="colorPrimary">@color/primary</item><item name="colorPrimaryVariant">@color/primary_dark</item><item name="colorOnPrimary">@color/white</item><item name="colorSecondary">@color/accent</item><item name="colorSurface">@color/white</item>
+  <item name="android:fontFamily">sans</item><item name="android:colorBackground">@color/app_bg</item><item name="android:forceDarkAllowed">false</item><item name="android:windowLightStatusBar">false</item><item name="android:statusBarColor">#101827</item><item name="android:navigationBarColor">#F6F7FC</item>
+ </style>
+    <style name="Theme.GATEMockTest.Splash" parent="Theme.GATEMockTest"><item name="android:windowBackground">@color/app_bg</item><item name="android:navigationBarColor">@color/app_bg</item></style>
+</resources>

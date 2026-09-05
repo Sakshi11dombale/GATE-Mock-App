@@ -1,0 +1,250 @@
+[
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_badge_amber.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_badge_amber.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_fragment_topics.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_topics.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/menu_bottom_nav_menu.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/menu/bottom_nav_menu.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_test_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_test_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_option_normal.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_option_normal.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_settings.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_settings.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_weak_topic.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_weak_topic.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_home_hero.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_home_hero.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_fragment_results.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_results.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_stat_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_stat_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_palette_dot.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_palette_dot.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_login.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/color_nav_selector.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/color/nav_selector.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_register.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_register.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_exam_header.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_exam_header.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_icon_purple.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_icon_purple.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_topic_icon.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_topic_icon.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_pill_indigo.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_pill_indigo.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_error_box.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_error_box.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/navigation_nav_graph.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_primary_button.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_primary_button.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_chip_selected.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_chip_selected.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_chip_light.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_chip_light.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_test_icon.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_test_icon.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_soft_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_soft_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_chart.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_chart.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_option_selected.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_option_selected.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_exam.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_exam.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_fragment_tests.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_tests.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_splash.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_option_circle.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_option_circle.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_book.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_book.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_spinner.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_spinner.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_home.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_home.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_fragment_dashboard.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_dashboard.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_share.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_share.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_icon_blue.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_icon_blue.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_topics_hero.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_topics_hero.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_card_modern.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_card_modern.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_result_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_result_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_topic_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_topic_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_badge_purple.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_badge_purple.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_test_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_test_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_badge_green.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_badge_green.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_test_badge.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_test_badge.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_result.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_result.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_fragment_home.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_topic_card.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_topic_card.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_arrow_left.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_arrow_left.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_badge_blue.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_badge_blue.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_test.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_test.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_activity_main.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_icon_teal.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_icon_teal.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_tests_hero.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_tests_hero.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_badge_red.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_badge_red.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_avatar.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_avatar.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/layout_item_option.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/layout/item_option.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_user.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_user.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_palette_dot.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_palette_dot.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_ic_history.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/ic_history.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_icon_coral.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_icon_coral.xml"
+    },
+    {
+        "merged": "com.gate.mocktest.app-merged_res-47:/drawable_bg_branch_chip.xml.flat",
+        "source": "com.gate.mocktest.app-main-49:/drawable/bg_branch_chip.xml"
+    }
+]

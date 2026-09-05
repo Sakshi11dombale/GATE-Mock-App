@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/app_bg" android:gravity="center" android:orientation="vertical" android:padding="30dp">
+ <TextView android:id="@+id/tv_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GATE" android:textColor="#4A42AA" android:textSize="42sp" android:textStyle="bold" android:letterSpacing="0.08" android:alpha="0"/>
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Prep Studio" android:textColor="#263247" android:textSize="22sp" android:textStyle="bold" android:layout_marginTop="-5dp"/>
+ <TextView android:id="@+id/tv_tagline" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Practice smarter. Track progress. Crack GATE." android:textColor="#6F7D91" android:textSize="12sp" android:layout_marginTop="10dp" android:alpha="0"/>
+ <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="▰
+▱" android:gravity="center" android:textColor="#5145B5" android:textSize="64sp" android:layout_marginTop="68dp" android:lineSpacingExtra="-28dp"/>
+ <ProgressBar android:id="@+id/progress_bar" style="@style/Widget.AppCompat.ProgressBar.Horizontal" android:layout_width="130dp" android:layout_height="4dp" android:layout_marginTop="58dp" android:indeterminate="true" android:progressTint="#4B3DB4" android:progressBackgroundTint="#E2E6EF"/>
+</LinearLayout>

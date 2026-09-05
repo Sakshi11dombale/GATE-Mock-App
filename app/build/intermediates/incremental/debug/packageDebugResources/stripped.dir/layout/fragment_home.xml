@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="#F6F7FB" android:fillViewport="true">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="18dp">
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:gravity="center_vertical" android:layout_marginBottom="14dp">
+            <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="GATE PREP" android:textColor="#6366F1" android:textSize="11sp" android:textStyle="bold" android:letterSpacing="0.18"/>
+                <TextView android:id="@+id/tv_welcome" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hi, GATE Aspirant 👋" android:textColor="#111827" android:textSize="23sp" android:textStyle="bold" android:layout_marginTop="3dp"/>
+            </LinearLayout>
+            <TextView android:id="@+id/tv_branch" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="CSE • GATE 2026" android:textColor="#3730A3" android:textSize="11sp" android:textStyle="bold" android:background="@drawable/bg_pill_indigo" android:paddingStart="12dp" android:paddingEnd="12dp" android:paddingTop="8dp" android:paddingBottom="8dp"/>
+        </LinearLayout>
+
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:background="@drawable/bg_home_hero" android:padding="22dp" android:layout_marginBottom="18dp">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="YOUR GATE PRACTICE HUB" android:textColor="#C7D2FE" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.14"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Build accuracy. Master concepts.\nPractice like the real exam." android:textColor="#FFFFFF" android:textSize="22sp" android:textStyle="bold" android:lineSpacingMultiplier="1.1" android:layout_marginTop="8dp"/>
+            <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Branch-specific technical questions + Engineering Mathematics + General Aptitude." android:textColor="#E0E7FF" android:textSize="12sp" android:lineSpacingMultiplier="1.25" android:layout_marginTop="10dp"/>
+            <com.google.android.material.button.MaterialButton android:id="@+id/card_mock" android:layout_width="match_parent" android:layout_height="50dp" android:text="Start GATE Practice Mock  →" android:textAllCaps="false" android:textSize="14sp" android:textStyle="bold" android:textColor="#3730A3" app:backgroundTint="#FFFFFF" app:cornerRadius="16dp" android:layout_marginTop="18dp"/>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="YOUR PROGRESS" android:textColor="#64748B" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.16" android:layout_marginBottom="8dp"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:layout_marginBottom="18dp">
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginEnd="6dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:cardBackgroundColor="#FFFFFF">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView android:id="@+id/tv_tests_done" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#111827" android:textSize="22sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Tests" android:textColor="#64748B" android:textSize="10sp" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginHorizontal="3dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:cardBackgroundColor="#FFFFFF">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView android:id="@+id/tv_accuracy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0%" android:textColor="#111827" android:textSize="22sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Accuracy" android:textColor="#64748B" android:textSize="10sp" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+            <androidx.cardview.widget.CardView android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:layout_marginStart="6dp" app:cardCornerRadius="18dp" app:cardElevation="0dp" app:cardBackgroundColor="#FFFFFF">
+                <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="14dp">
+                    <TextView android:id="@+id/tv_streak" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" android:textColor="#111827" android:textSize="22sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Day streak" android:textColor="#64748B" android:textSize="10sp" android:layout_marginTop="2dp"/>
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PRACTICE MODES" android:textColor="#64748B" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.16" android:layout_marginBottom="8dp"/>
+
+        <androidx.cardview.widget.CardView android:id="@+id/card_topic" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="20dp" app:cardElevation="0dp" android:background="@drawable/bg_soft_card" android:foreground="?attr/selectableItemBackground" android:layout_marginBottom="10dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp">
+                <LinearLayout android:layout_width="46dp" android:layout_height="46dp" android:gravity="center" android:background="@drawable/bg_icon_teal"><ImageView android:layout_width="23dp" android:layout_height="23dp" android:src="@drawable/ic_book" app:tint="@color/teal_color"/></LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Topic Practice" android:textColor="#111827" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Target Algorithms, DBMS, OS, Networks and more" android:textColor="#64748B" android:textSize="11sp" android:layout_marginTop="3dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="#0F766E" android:textSize="28sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView android:id="@+id/card_pyq" android:layout_width="match_parent" android:layout_height="wrap_content" app:cardCornerRadius="20dp" app:cardElevation="0dp" android:background="@drawable/bg_soft_card" android:foreground="?attr/selectableItemBackground" android:layout_marginBottom="18dp">
+            <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:gravity="center_vertical" android:padding="16dp">
+                <LinearLayout android:layout_width="46dp" android:layout_height="46dp" android:gravity="center" android:background="@drawable/bg_icon_coral"><ImageView android:layout_width="23dp" android:layout_height="23dp" android:src="@drawable/ic_chart" app:tint="@color/coral_color"/></LinearLayout>
+                <LinearLayout android:layout_width="0dp" android:layout_height="wrap_content" android:layout_weight="1" android:orientation="vertical" android:layout_marginStart="14dp">
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Previous Year Questions" android:textColor="#111827" android:textSize="15sp" android:textStyle="bold"/>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Practice available GATE paper sets by year" android:textColor="#64748B" android:textSize="11sp" android:layout_marginTop="3dp"/>
+                </LinearLayout>
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="›" android:textColor="#993C1D" android:textSize="28sp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="RECENT ACTIVITY" android:textColor="#64748B" android:textSize="10sp" android:textStyle="bold" android:letterSpacing="0.16" android:layout_marginBottom="8dp"/>
+        <androidx.recyclerview.widget.RecyclerView android:id="@+id/rv_recent_tests" android:layout_width="match_parent" android:layout_height="wrap_content" android:nestedScrollingEnabled="false" android:layout_marginBottom="24dp"/>
+    </LinearLayout>
+</ScrollView>
